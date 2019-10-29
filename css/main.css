@@ -7,14 +7,7 @@ body {
 	text-align: center;
 	min-width: 360px;
 	margin: 0;
-}
-
-#header,
-#showcase,
-#footer,
-#social {
 	background: #f44274;
-	;
 	animation-name: bgColor;
 	animation-duration: 24s;
 	animation-iteration-count: infinite;
@@ -73,6 +66,15 @@ img {
 	width: 45px;
 }
 
+#footer {	
+	background: #000;
+	color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 
 /*
     For reaponsiveness across all the devices using @media queries.
